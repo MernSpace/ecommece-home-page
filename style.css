@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
+.heading{
+    font-size: 54px;
+    font-weight: 700;
+}
 
+
+
+
+/* Header section css start*/
 .dropdown-menu .dropdown-item:hover {
     background-color: #FFC107;
     /* bg-success color */
@@ -34,3 +42,76 @@
 
 
 
+.custom-margin{
+
+}
+
+
+
+/* Header section css end*/
+
+
+
+
+/* Product section css start*/
+
+.product-item{
+    list-style: none;
+}
+
+.onsale{
+    border-radius: 999px;
+    padding: 8px 8px;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.circle{
+    border-radius: 50%
+
+}
+
+/* Set up the initial position for the Quick View link */
+.quick-view-link {
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    min-height: 2em;
+    background: rgba(0, 0, 0, .7);
+    color: #fff;
+    transition: bottom 0.3s ease, opacity 0.3s ease; /* Add smooth transition */
+}
+
+/* On hover of the card, bring the Quick View link up */
+.card:hover .quick-view-link {
+    bottom: 130px;
+    opacity: 1;
+    background: black;
+    color: #fff;
+}
+
+
+.bg-none {
+    background: none;
+}
+
+.hover-shadow-lg {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow-lg:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Large shadow */
+}
+
+/* Product section css end*/
+
+
+
+
+.bg-custom {
+    background-color: #F2295B;
+  }
