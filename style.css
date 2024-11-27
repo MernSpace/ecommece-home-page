@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.heading{
+.heading {
     font-size: 54px;
     font-weight: 700;
 }
@@ -42,9 +42,7 @@
 
 
 
-.custom-margin{
-
-}
+.custom-margin {}
 
 
 
@@ -55,11 +53,11 @@
 
 /* Product section css start*/
 
-.product-item{
+.product-item {
     list-style: none;
 }
 
-.onsale{
+.onsale {
     border-radius: 999px;
     padding: 8px 8px;
     background: red;
@@ -67,9 +65,9 @@
     font-size: 18px;
     font-weight: 400;
 }
-.circle{
-    border-radius: 50%
 
+.circle {
+    border-radius: 50%
 }
 
 /* Set up the initial position for the Quick View link */
@@ -83,7 +81,8 @@
     min-height: 2em;
     background: rgba(0, 0, 0, .7);
     color: #fff;
-    transition: bottom 0.3s ease, opacity 0.3s ease; /* Add smooth transition */
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+    /* Add smooth transition */
 }
 
 /* On hover of the card, bring the Quick View link up */
@@ -104,7 +103,8 @@
 }
 
 .hover-shadow-lg:hover {
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Large shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Large shadow */
 }
 
 /* Product section css end*/
@@ -114,4 +114,34 @@
 
 .bg-custom {
     background-color: #F2295B;
-  }
+}
+
+
+
+.bg-footer {
+    background-color: #415161;
+}
+
+.icon-color {
+    background-color: #415161;
+}
+
+.hover-bg:hover {
+    background-color: #F2295B;
+}
+
+li:hover i {
+    color: #1877f2;
+    /* Change the icon color to Facebook blue */
+    transform: scale(1.2);
+    /* Slightly increase the icon size on hover */
+}
+
+/* Optional: Add smooth transition */
+li {
+    transition: background-color 0.3s ease;
+}
+
+li i {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
